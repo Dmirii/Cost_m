@@ -55,9 +55,6 @@ body {
 	width: 100%;	
 	background: url(/img/cat2.png);
 	background-size: 250px;	
-
-
-		
 	
 }
 .header{
@@ -69,9 +66,7 @@ body {
 	border-bottom: 1px solid black;	
 	background: url(/img/logo.png) no-repeat ;
 	background-size: 100px;
-	background-position: 0 30%;
-
-	
+	background-position: 5px 30%;	
 	
 }
 
@@ -84,8 +79,7 @@ body {
 .header-nav{
 	padding: 30px 20px 0 0;	
 	text-align: end;
-	font-size: 20px;
-	
+	font-size: 20px;	
 	
 }
 
@@ -129,6 +123,11 @@ body {
 
 .about:hover{
 	box-shadow: 0 0 15px rgba(223, 22, 22, 0.808); 
+}
+.about::first-letter{
+	font-size: 24px;
+	color:  rgba(223, 22, 22, 0.808);
+	padding: 0 2px 0 10px;
 }
 	
 
