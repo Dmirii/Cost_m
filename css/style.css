@@ -37,3 +37,52 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+
+html,body{
+	height: 100%;	
+}
+body {
+	display: flex;
+	flex-direction: column;
+	background: url(/img/cat2.png);
+	background-size: 250px;	
+  }
+.wrapper{
+	margin: 0 auto;
+	flex: 1 0 auto;
+
+
+		
+	
+}
+.header{
+	height: 100px;
+	background-color:white;
+	border-bottom: 1px solid black;
+	
+}
+
+.footer{
+	flex: 0 0 auto;
+	height: 100px;
+	background-color:white;
+	border-top: 1px solid black;	
+}
+.header-nav{
+	padding: 40px 0 0 0;	
+	text-align: end;
+	font-size: 20px;
+	
+}
+.header-nav li{	
+	display: inline;
+	
+}
+.header-nav-l{
+	color: #000;
+	padding: 20px;
+
+}
+.header-nav{
+
+}
