@@ -45,11 +45,15 @@ body {
 	display: flex;
 	flex-direction: column;
 	
+	
+	
   }
 .wrapper{
+	
+	margin: 100px 0 0 0;
 	display: flex ;
-	justify-content: flex-start
-	margin: 0 auto;
+	justify-content: space-evenly;
+	
 	flex: 1 0 auto;
 	flex-wrap: wrap;
 	width: 100%;	
@@ -57,20 +61,23 @@ body {
 	background-size: 250px;	
 	
 }
-.header{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
+.header{	
+	display: block;	
+	z-index: 10;
+	position: fixed;	
 	height: 100px;
+	width: 100%;
 	background-color:white;
 	border-bottom: 1px solid black;	
-	background: url(/img/logo.png) no-repeat ;
+	/*background: url(/img/logo.png) no-repeat ;
 	background-size: 100px;
-	background-position: 5px 30%;	
+	background-position: 5px 30%;*/
 	
+		
 }
 
 .footer{
+	
 	flex: 0 0 auto;
 	height: 100px;
 	background-color:white;
@@ -111,7 +118,7 @@ body {
 	background: #000;
 }
 .about{
-	
+	min-height: 300px;
 	max-width: 310px;
 	max-height: 200px;
 	border: 1px solid black;
@@ -119,7 +126,7 @@ body {
 	background-color: white;
 	box-shadow: 0 0 15px rgba(0,0,0,0.8); 
 	margin: 20px 0px 20px 10px;
-	padding: 10px;
+	padding: 10px;	
 	overflow: hidden;
 }
 
