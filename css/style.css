@@ -111,6 +111,7 @@ body {
 	background: #fff;
 	border: 1px solid #000;
 	box-shadow: 0 0 5px rgba(223, 22, 22, 0.808); 	
+	transition-duration: 2s;
 }
 
 .header-nav-l:active{
@@ -132,6 +133,8 @@ body {
 
 .about:hover{
 	box-shadow: 0 0 15px rgba(223, 22, 22, 0.808); 
+	transition-duration: 2s;
+
 }
 .about::first-letter{
 	font-size: 24px;
@@ -148,5 +151,40 @@ body {
 	padding: 0 0 0 20px;
 	background-size: 15px;	
 	background-repeat: no-repeat;
+
+ }
+ .content_circule{
+	 width: 10px;
+	 height: 10px;
+	 background-color: red;
+	 border-radius: 50%;
+	 position: relative;	
+	 animation-name: white-cirucle;
+	 animation-duration: 2s;
+	 animation-timing-function: linear;
+	 animation-iteration-count: infinite;
+	 animation-direction: alternate-reverse;
+ }
+ .content_circule:hover{
+	 animation-play-state: paused;
+	 cursor: wait;
+ }
+
+ @keyframes  white-cirucle{
+	 0%{
+		border-radius: 50%;
+		width: 10px;
+		height: 10px;
+		background-color: red;
+		color: #000;
+	 }
+	 100%{
+		border-radius: 0%;
+		width: 21px;
+		 height: 21px;
+		 background-color: black;
+		color:red;
+
+	 }
 
  }
