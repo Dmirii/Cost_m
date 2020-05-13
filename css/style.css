@@ -151,7 +151,16 @@ body {
 	padding: 0 0 0 20px;
 	background-size: 15px;	
 	background-repeat: no-repeat;
-
+ }
+ .about__hr{
+	/*text-align: right; /* для ie */
+	margin: 0 auto 0 auto; /* для остальных браузеров */
+	width: 30px;
+	 color: #555; /*для IE */
+    background-color:#555; /*для Firefox, Opera, Safari*/
+    border:0px none;
+    height:2px; /* высота 1px IE, Firefox, Opera, Safari */
+    clear:both; /* для очистки, если тег идет после float елемента */
  }
  .content_circule{
 	 width: 10px;
