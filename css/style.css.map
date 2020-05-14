@@ -2,8 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../#sourse/scss/style.scss",
-        "../#sourse/scss/adfont.scss"
+        "../#sourse/scss/style.scss"
     ],
     "names": [],
     "file": "style.css"
