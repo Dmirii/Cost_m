@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAKA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,GAAG;EACrB,MAAM,EAAE,WAAW;CAGtB",
     "sources": [
         "../#sourse/scss/style.scss",
         "../#sourse/scss/adfont.scss"
