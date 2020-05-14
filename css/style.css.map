@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../#sourse/scss/style.scss",
+        "../#sourse/scss/adfont.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
